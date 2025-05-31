@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(/image.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            padding: 25px 50px;
+        }
+
+        .logo {
+            color: rgb(255, 255, 255);
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(248, 242, 242);
+            margin-left: 25px;
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            transition: border-color 0.3s;
+        }
+
+        .nav a:hover {
+            border-color: grey;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+           justify-content: center;
+           margin-top: 80px;
+        }
+        .div-msg{
+            display: flex;
+            flex-direction: row;
+        }
+        .input1{
+            height: 30px;
+            width: 300px;
+           border: 2px solid rgb(160, 157, 157);
+           border-radius: 10px;
+           
+        }
+        .input1:hover{
+            border-color: rgb(255, 255, 255);
+        }
+        .mail{
+            height: 30px;
+            width: 300px;
+            border: 2px solid grey;
+            border-radius: 10px;
+
+        }
+        .mail:hover{
+        border-color: rgb(255, 255, 255);
+
+        }
+        .number{
+            height: 30px;
+            width: 300px;
+            border: 2px solid grey;
+            border-radius: 10px;
+
+
+        }
+        .number:hover{
+        border-color: rgb(255, 255, 255);
+        }
+
+    
+        .input2{
+            width: 300px;
+            height: 150px;
+            border: 2px solid grey;
+            padding-top: 30px;
+            border-radius: 10px;
+
+
+        }
+        .input2:hover{
+            border-color: rgb(255, 255, 255);
+
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+          gap: 40px;
+        }
+        .btn{
+            height: 30px;
+            width: 300px;
+            border-radius: 20px;
+            background-color: rgb(154, 190, 189);
+            cursor: pointer;
+            border: 2px solid transparent;
+            margin-top: 40px;
+            margin-left: 550px;
+        }
+        .btn:hover{
+            border-color: cornsilk;
+            opacity: 0.6;
+        }
+        .text{
+            color: aliceblue;
+          margin-top: 50px;
+        }
+        h1{
+            font-size: 50px;
+            margin-left: 400px;
+        }
+        h3{
+            margin-left: 500px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="head" id="/contact">
+    <div class="container" >
+        <nav>
+            <div class="logo">ADVENTURE</div>
+            <div class="nav a">
+                <a href="/adventures.html">HOME</a>
+                <a href="#">ABOUTUS</a>
+                <a href="/service.html">SERVICE</a>
+                <a href="#">GALLERY</a>
+                <a href="#">FAQ</a>
+                <a href="#">CONTACTUS</a>
+                <a href="#">PAGES</a>
+            </div>
+
+        </nav>
+    </div>
+    <div class="text">
+        <h1>If you need, just drop us a line </h1>
+        <h3>Who are in extremely love with eco friendly system.</h5>
+    </div>
+    <div class="content">
+        <div class="main">
+        <input type="text" class="input1" name="" id="" placeholder="Enter Your Name">
+        <input type="email" class="mail" name="" id="" placeholder="Enter Your Email">
+        <input type="number" class="number" name="" id="" placeholder="Enter Your number">
+        </div>
+        <div class="div-msg">
+        <input type="text" class="input2" name="" id="" placeholder="Enter Your msg" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'">
+        </div>
+        
+
+    </div>
+        <button type="submit" class="btn">Send Message</button>
+        </div>
+
+
+
+</body>
+
+</html>
