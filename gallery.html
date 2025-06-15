@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            margin-top: 10%;
+            width: 300px;
+            height: 200px;
+        }
+         nav{
+           background-color: black;
+            display: flex;
+          justify-content: space-between;
+          align-content: center;
+          padding: 25px 50px ;
+        }
+        .logo{
+            color: rgb(255, 255, 255);
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .nav a{
+            text-decoration: none;
+            color:rgb(189, 189, 189);
+            margin-left: 25px;
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            transition: border-color 0.3s;
+        }
+        .nav a:hover{
+            border-color: grey;
+        }
+        .content{
+            margin-top: 60px;
+            margin-left: 500px;
+            color: grey;
+         }
+         .content h4{
+            margin-left: 100px;
+         }
+    </style>
+</head>
+<body>
+     <div class="containe" id="contact">
+       <nav>
+        <div class="logo">ADVENTURE</div>
+        <div class="nav a">
+            <a href="/adventures.html">HOME</a>
+            <a href="/about.html">ABOUTUS</a>
+            <a href="/service.html">SERVICE</a>
+            <a href="/gallery.html">GALLERY</a>
+            <a href="/faq.html">FAQ</a>
+            <a href="/contact.html">CONTACTUS</a>
+            <a href="/Element.html">PAGES</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <marquee behavior="" direction="right">
+            <img class="img" src="/gallery1.jpg" alt="">
+            <img class="img" src="/gallery2.jpg" alt="">
+            <img class="img" src="/gallery3.jpg" alt="">
+            <img class="img" src="/gallery4.jpg" alt="">
+            <img class="img" src="gallery5.jpg" alt="">
+        </marquee>
+    </div>
+    <div class="content">
+        <h1 class="h1">Make a better vacation with us</h1>
+        <h4>Enjoy your beautiful moments</h4>
+    </div>
+</body>
+</html>
