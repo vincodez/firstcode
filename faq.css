@@ -1,0 +1,88 @@
+  body{
+             background-image: url(/blue-and-orange-background-1920-x-1920-3c29u5qkwdrhzw6y.jpg);
+           background-repeat: no-repeat;
+        background-size: cover;
+        }
+          nav {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            padding: 25px 50px;
+        }
+
+        .logo {
+            color: rgb(255, 255, 255);
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(248, 242, 242);
+            margin-left: 25px;
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            transition: border-color 0.3s;
+        }
+
+        .nav a:hover {
+            border-color: grey;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+           justify-content: center;
+           margin-top: 80px;
+        }
+        .heading{
+            font-size: 30px;
+          
+        }
+        .headings h1{
+            margin-top: 50px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .headings h3{
+            font-size: 15px;
+            text-align: center;
+            color: grey;
+        }
+        .flx{
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            margin-left: 300px;
+            margin-top: 30px;
+        }
+        .topic{
+         
+            width: 200px;
+            height: 400px;
+            text-align: end;
+        }
+        .answer{
+            display: flex;
+            flex-direction: column;
+          
+            width: 600px;
+            height: 400px;
+        }
+        .num h1{
+            color: rgb(132, 0, 255);
+        }
+        .num h3{
+font-weight: lighter;       
+color: grey;
+        }
+        .theory h6{
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .theory h4{
+            font-weight: lighter;
+            color: grey;
+        }

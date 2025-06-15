@@ -1,0 +1,44 @@
+ body{
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+            background-image: url(/vivid-blurred-colorful-wallpaper-background_58702-2948.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            color: #fff;
+         }
+         nav{
+            display: flex;
+          justify-content: space-between;
+          align-content: center;
+          padding: 25px 50px ;
+        }
+        .logo{
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .nav a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            margin-left: 25px;
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            transition: border-color 0.3s;
+        }
+        .nav a:hover{
+            border-color: grey;
+        }
+        .headings{
+           display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        }
+        .headings h1{
+            margin-left: 150px;
+        }
+        .headings h4{
+            margin-left: 20px;
+        }
+        .headings br{
+            margin-left: 50px;
+        }
