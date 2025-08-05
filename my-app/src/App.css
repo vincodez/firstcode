@@ -1,0 +1,134 @@
+#root {
+width: 1430px;
+height: 100px;
+margin-bottom: 720px;  
+text-align: center;
+background-color: aliceblue;
+
+}
+
+.navbar{
+  background-color: rgb(249, 255, 255);
+}
+.card{
+  padding: 20px;
+}
+.card-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-text1{
+  font-size: 16px;
+  text-align: center;
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  color: grey;
+}
+.card-header.mt-5{
+  background-color: #ada1a1;
+}
+.card-body1{
+    background-color: #ada1a1;
+
+}
+.card-footer.text-body-secondary{
+  background-color:#ada1a1;
+}
+.Head{
+  color: rgb(143, 143, 223);
+}
+.offer{
+  color: rgb(224, 224, 224);
+}
+.row{
+  margin-top: 80px;
+}
+.dropdown-item:hover{
+ background-color: rgb(212, 212, 212);
+}
+
+.nav-link .dropdown-toggle{
+  font-weight: larger;
+}
+   .flx{
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            margin-left: 200px;
+           padding-top: 50px;
+        }
+        .topic{
+         
+            width: 200px;
+            height: 400px;
+            text-align: end;
+        }
+        .main{
+          margin-left: 250px;
+        }
+        .num2{
+          margin-top: 205px;
+          color: rgb(161, 78, 154);
+        }
+        .num3{
+           margin-top: 130px;
+          color: rgb(190, 115, 65);
+        }
+        .num4{
+           margin-top: 220px;
+          color: rgb(81, 170, 185);
+        }
+        .answer{
+            display: flex;
+            flex-direction: column;
+          
+            width: 800px;
+            height: 750px;
+        }
+        .num h6{
+            color: rgb(132, 0, 255);
+        }
+        .num h5{
+font-weight: lighter;       
+color: grey;
+        }
+        .theory h5{
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .theory h5{
+            font-weight: lighter;
+            color: #000000;
+        }
+        .theory2{
+          margin-top: 90px;
+          color: #b36868;
+        }
+        .theory3{
+           margin-top: 95px;
+          color: #805757; 
+          font-size: 25px;
+        }
+        .theory4{
+          color: #0a0808;
+          margin-top: 650px;
+         margin-left: -900px;
+        }
+        .main1{
+          background-color: #fff;
+        }
+        .main2{
+          background-color: #d3def0;
+          margin-top: 50px;
+        }
+       #App{
+        background-color: #fff;
+       }
+       
