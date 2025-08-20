@@ -1,10 +1,18 @@
 {
   "dependencies": {
+    "@prisma/client": "^6.14.0",
     "@react-oauth/google": "^0.12.2",
     "bootstrap": "^5.3.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "jwt-decode": "^4.0.0",
+    "mongodb": "^6.18.0",
     "oauth": "^0.10.2",
+    "prisma": "^6.14.0",
     "react-bootstrap": "^2.10.10",
     "react-router-dom": "^7.7.1"
+  },
+  "devDependencies": {
+    "@4c/tsconfig": "^0.4.1"
   }
 }

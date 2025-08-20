@@ -131,4 +131,6 @@ color: grey;
        #App{
         background-color: #fff;
        }
-       
+      .card-title{
+        margin-top: 100px;
+      }

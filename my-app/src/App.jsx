@@ -8,7 +8,6 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Material from './Components/Material';
 import Item from './Components/Item';
-import Login from './Components/Login ';
 
 
 import { GoogleOAuthProvider } from '@react-oauth/google';
@@ -33,12 +32,12 @@ function App() {
                 <Info />
                 <Item />
                 <Address />
-                 <Login/>
                 <Footer />
               </>
             }
           />
           <Route path="/about" element={<About />} />
+        
         </Routes>
       </>
     </GoogleOAuthProvider>
